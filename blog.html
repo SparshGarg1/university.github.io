@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- awesone font cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Fonts Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+       <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+   
+    <!-- Blog -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique obcaecati sint autem totam eum repellat nulla facilis minima, in tenetur. Ratione doloribus placeat similique minima quasi quis ullam, consequuntur, impedit aperiam maxime perspiciatis, aspernatur cumque tenetur velit laboriosam porro unde nam totam fugit veniam eligendi dolor! Hic eveniet dolore laborum dolor expedita porro doloribus reiciendis quo et! Error, magni explicabo expedita ipsa distinctio fugiat. Aut neque ipsa illum? Quas praesentium soluta tempore et doloremque eos dolorum consectetur ullam rerum consequuntur a molestiae labore dolore saepe recusandae quasi cum, eius inventore numquam perferendis impedit? Numquam exercitationem repellat eligendi perspiciatis beatae!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque velit eaque eum maiores sunt veniam tempora vel perspiciatis dolorem, omnis dignissimos voluptas ut est dolorum soluta ullam, quas exercitationem hic ad? Accusantium est voluptatem esse adipisci assumenda impedit rerum! Quos, facilis veritatis tempore praesentium aliquam aspernatur ipsam corporis ducimus? Voluptatem atque vitae consequatur sed eveniet minima blanditiis quas magni cum sequi, asperiores enim id qui, hic ratione a natus porro cumque saepe quo esse ipsa? Facilis, numquam! Nisi, non pariatur. Aliquid ipsum, obcaecati ut dolorum dignissimos ad similique incidunt soluta corporis pariatur cupiditate consequatur illo accusantium et, saepe fuga error?</p>
+            `   <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum autem maxime quae velit tempore quam dolores provident nam iusto fuga nostrum labore quibusdam molestiae quasi eligendi earum architecto minima temporibus explicabo, atque magnam alias corrupti impedit. Sapiente iusto ipsam placeat aliquam. Deleniti error aspernatur adipisci veniam quos dolorum quo vitae, itaque accusantium laudantium saepe rerum quisquam dolore, nisi facilis ab ut sapiente quidem omnis amet eum atque totam rem obcaecati. Ullam, at. Praesentium, necessitatibus. Officia ipsam dolore deserunt, laboriosam minus quibusdam dolorum. Rerum, explicabo quisquam culpa quas dignissimos pariatur necessitatibus deserunt, ipsa, voluptatum voluptate fugiat nulla at laudantium cum!</p>
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form action="" class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Email">
+                    <textarea  rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                </form>
+            </div>
+        
+        </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Businee Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+   
+<!-- Footer -->
+<section class="footer">
+    <h1>About Us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel inventore aut doloribus accusantium ut vitae, itaque voluptatem minus enim, quaebr <br> nostrum beatae, voluptatum veniam odio est reiciendis aliquid ipsam. Laudantium recusandae doloremque blanditiis culpa deserunt necessitatibus voluptatibus omnis fuga eveniet. Facere dolorum nostrum tempora quis minima cumque modi debitis at.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+    <p>Made By <i class="fa fa-heart-o" aria-hidden="true"></i> Sparsh Garg</p>
+</section>
+
+    <!-- Javascript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- awesone font cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Fonts Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+       <h1>Our Courses</h1>
+    </section>
+   
+    <!-- Our Courses -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, asperiores!</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Under Graduate</h3>
+                <P>Undergraduate education is education conducted after secondary education and before postgraduate education. It typically includes all postsecondary programs up to the level of a bachelor's degree.</P>
+            </div>
+            <div class="course-col">
+                <h3> Post Graduate</h3>
+               <P>Postgraduate education involves learning and studying for academic or professional degrees, academic or professional certificates, academic or professional diplomas, or other qualifications for which a first or bachelor's degree generally is required, and it is normally considered to be part of higher education.</P>
+            </div>
+            <div class="course-col">
+                <h3>Ph. D.</h3>
+                <P>PhD is short for Doctor of Philosophy. This is an academic or professional degree that, in most countries, qualifies the degree holder to teach their chosen subject at university level or to work in a specialized position in their chosen field.</P>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1>
+            Our Facilities
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, eaque?</p>
+        <div class="row">
+            <div class="facilities-col">
+               <img src="img/eduford_img/library.png" alt="">
+               <h3>World Class library</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, molestiae!</p>
+            </div>
+            <div class="facilities-col">
+               <img src="img/basketball.png" alt="">
+               <h3>Largest Playground</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, molestiae!</p>
+            </div>
+            <div class="facilities-col">
+               <img src="img/cafeteria.png" alt="">
+               <h3>Tasty and Healthy Food</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, molestiae!</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<section class="footer">
+    <h1>About Us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel inventore aut doloribus accusantium ut vitae, itaque voluptatem minus enim, quaebr <br> nostrum beatae, voluptatum veniam odio est reiciendis aliquid ipsam. Laudantium recusandae doloremque blanditiis culpa deserunt necessitatibus voluptatibus omnis fuga eveniet. Facere dolorum nostrum tempora quis minima cumque modi debitis at.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+    <p>Made By <i class="fa fa-heart-o" aria-hidden="true"></i> Sparsh Garg</p>
+</section>
+
+    <!-- Javascript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
